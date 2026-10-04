@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
-  <title id="title">Artur Moreira de Carvalho — Backend e Full Stack</title>
+  <title id="title">Artur Moreira de Carvalho — Backend, dados e IA aplicada</title>
   <desc id="desc">Cartão de apresentação do portfólio de Artur Moreira de Carvalho.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
@@ -23,11 +23,11 @@
   <g transform="translate(76 78)">
     <rect x="0" y="0" width="10" height="10" rx="5" fill="#79e6c5"/>
     <text x="28" y="11" fill="#79e6c5" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" letter-spacing="4">ARTUR MOREIRA DE CARVALHO</text>
-    <text x="0" y="108" fill="#f4f7ff" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700" letter-spacing="-1.4">Backend sólido para</text>
-    <text x="0" y="172" fill="#f4f7ff" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700" letter-spacing="-1.4">produtos que evoluem.</text>
-    <text x="0" y="226" fill="#aab5cf" font-family="Arial, Helvetica, sans-serif" font-size="23">APIs REST  •  Dados  •  Qualidade de software</text>
+    <text x="0" y="108" fill="#f4f7ff" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700" letter-spacing="-1.4">Backend, dados</text>
+    <text x="0" y="172" fill="#79e6c5" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700" letter-spacing="-1.4">e IA aplicada.</text>
+    <text x="0" y="226" fill="#aab5cf" font-family="Arial, Helvetica, sans-serif" font-size="23">PERKUS em destaque  •  Projetos Python</text>
     <rect x="0" y="278" width="420" height="52" rx="26" fill="#79e6c5"/>
-    <text x="28" y="312" fill="#07151a" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700">PHP/Laravel  •  Python  •  Node.js</text>
+    <text x="28" y="312" fill="#07151a" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700">PHP/Laravel  •  SQL  •  Oracle</text>
     <text x="0" y="416" fill="#7787a8" font-family="Arial, Helvetica, sans-serif" font-size="18" letter-spacing="2">PORTFÓLIO PROFISSIONAL  /  2026</text>
   </g>
 
@@ -37,12 +37,12 @@
     <circle cx="28" cy="31" r="7" fill="#f27e79"/>
     <circle cx="51" cy="31" r="7" fill="#f2c879"/>
     <circle cx="74" cy="31" r="7" fill="#79e6c5"/>
-    <text x="28" y="114" fill="#79e6c5" font-family="Consolas, monospace" font-size="20">&gt; build reliable</text>
-    <text x="28" y="150" fill="#f4f7ff" font-family="Consolas, monospace" font-size="20">systems()</text>
+    <text x="28" y="114" fill="#79e6c5" font-family="Consolas, monospace" font-size="20">&gt; PERKUS</text>
+    <text x="28" y="150" fill="#f4f7ff" font-family="Consolas, monospace" font-size="20">em desenvolvimento</text>
     <rect x="28" y="186" width="274" height="1" fill="#aab5cf" opacity=".2"/>
-    <text x="28" y="230" fill="#8fa9ff" font-family="Consolas, monospace" font-size="17">status: shipping</text>
-    <text x="28" y="263" fill="#aab5cf" font-family="Consolas, monospace" font-size="17">tests: passing</text>
-    <text x="28" y="296" fill="#79e6c5" font-family="Consolas, monospace" font-size="17">quality: continuous</text>
+    <text x="28" y="230" fill="#8fa9ff" font-family="Consolas, monospace" font-size="17">contexto da tela</text>
+    <text x="28" y="263" fill="#aab5cf" font-family="Consolas, monospace" font-size="17">permissões no backend</text>
+    <text x="28" y="296" fill="#79e6c5" font-family="Consolas, monospace" font-size="17">validação e fallback</text>
   </g>
   <text x="77" y="590" fill="#536684" font-family="Arial, Helvetica, sans-serif" font-size="16">arturmoreiradecarvalho.github.io/artur-portfolio/</text>
 </svg>

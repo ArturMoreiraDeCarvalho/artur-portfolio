@@ -1,12 +1,13 @@
-# Artur Moreira de Carvalho — Portfolio
+# Artur Moreira de Carvalho — portfólio
 
 Portfólio web estático de Artur Moreira de Carvalho, desenvolvido com HTML e CSS sem dependências ou build step.
 
 ## O que este site apresenta
 
-- posicionamento profissional com foco em backend e full stack;
-- experiência atual e stack técnica;
-- projetos públicos com links para os repositórios;
+- backend, dados financeiros, automação e IA aplicada;
+- PERKUS em destaque: problema, autoria, decisões de backend e demonstrações com escopo identificado;
+- experiência profissional em PHP/Laravel e SQL/Oracle, separada de Python e Node.js nos projetos públicos;
+- TrilhaDocs, Data Quality CLI e Task Health API com links para código e exemplos;
 - layout responsivo e acessível, com suporte a `prefers-reduced-motion`.
 
 ## Desenvolvimento local
@@ -14,3 +15,11 @@ Portfólio web estático de Artur Moreira de Carvalho, desenvolvido com HTML e C
 Abra `index.html` diretamente no navegador ou sirva a pasta com qualquer servidor estático.
 
 Este site é um projeto de portfólio e não coleta dados nem possui backend.
+
+## Publicação e conteúdo
+
+[Acessar o portfólio](https://arturmoreiradecarvalho.github.io/artur-portfolio/)
+
+GitHub Pages publica a branch `main`, a partir da raiz. Não há dependências externas, analytics, fontes remotas ou embeds de terceiros. Os vídeos são locais e carregam sob demanda.
+
+O PERKUS está em desenvolvimento. O case não publica código corporativo, credenciais ou dados de clientes. Demonstrações conceituais e resultados implementados são identificados separadamente; materiais visuais não comprovam operação em produção.
