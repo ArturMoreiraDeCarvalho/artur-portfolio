@@ -66,6 +66,7 @@ h3 { font-size: 1.24rem; line-height: 1.3; margin-bottom: .7rem; }
 .gallery-heading { margin-top: 3.8rem; }
 .gallery-heading p { color: var(--muted); max-width: 760px; }
 .video-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.2rem; }
+.video-grid-single { grid-template-columns: 1fr; max-width: 980px; }
 .video-card { overflow: hidden; margin: 0; }
 .video-card video { display: block; width: 100%; aspect-ratio: 16/9; background: #090d16; object-fit: contain; }
 .video-card figcaption { padding: 1.3rem; }
@@ -75,6 +76,7 @@ h3 { font-size: 1.24rem; line-height: 1.3; margin-bottom: .7rem; }
 .video-card details { margin-top: .8rem; }
 .video-card summary { color: var(--accent); font-size: .82rem; cursor: pointer; }
 .video-card details p { margin-top: .7rem; }
+.video-card .flow-footnote { margin-top: 1rem; }
 .project-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.2rem; }
 .project-card { padding: 1.8rem; display: flex; flex-direction: column; }
 .featured-card { border-color: rgba(121,230,197,.42); }

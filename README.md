@@ -5,7 +5,7 @@ Portfólio web estático de Artur Moreira de Carvalho, desenvolvido com HTML e C
 ## O que este site apresenta
 
 - backend, dados financeiros, automação e IA aplicada;
-- PERKUS em destaque: problema, autoria, decisões de backend e demonstrações com escopo identificado;
+- PERKUS em destaque: problema, autoria, decisões de backend e demonstração completa de 35 segundos com dados fictícios;
 - experiência profissional em PHP/Laravel e SQL/Oracle, separada de Python e Node.js nos projetos públicos;
 - TrilhaDocs, Data Quality CLI e Task Health API com links para código e exemplos;
 - layout responsivo e acessível, com suporte a `prefers-reduced-motion`.
@@ -19,6 +19,8 @@ Este site é um projeto de portfólio e não coleta dados nem possui backend.
 ## Publicação e conteúdo
 
 [Acessar o portfólio](https://arturmoreiradecarvalho.github.io/artur-portfolio/)
+
+[Assistir à demonstração do PERKUS — 35 segundos](https://arturmoreiradecarvalho.github.io/artur-portfolio/#demonstracoes)
 
 GitHub Pages publica a branch `main`, a partir da raiz. Não há dependências externas, analytics, fontes remotas ou embeds de terceiros. Os vídeos são locais e carregam sob demanda.
 

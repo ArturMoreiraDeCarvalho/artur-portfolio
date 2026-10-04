@@ -1,16 +1,17 @@
-# Escopo das demonstrações
+# Demonstração PERKUS
 
-Os dois trechos PERKUS foram extraídos do filme de apresentação da evolução do produto criado pelo autor do portfólio. Apenas a apresentação do PERKUS e a demonstração previamente anonimizada foram selecionadas; o filme completo e as capturas brutas não são publicados.
+O vídeo principal é a versão de 35 segundos enviada pelo autor para seu portfólio. Dados, nomes, saldos, contas e identificadores mostrados foram confirmados pelo autor como fictícios. A edição remove as referências visíveis à PZM na abertura, no cabeçalho, no chat e no encerramento, preservando o PERKUS e o percurso da demonstração.
 
-| Arquivo | Duração | Conteúdo e limite |
-| --- | --- | --- |
-| `assets/media/perkus-apresentacao.mp4` | 12 s | Identidade e proposta do assistente. Apresentação conceitual. |
-| `assets/media/perkus-interface.mp4` | 10 s | Interface com campos pessoais e contábeis cobertos. Nenhuma aprovação executada. |
+| Arquivo | Conteúdo |
+| --- | --- |
+| `assets/media/perkus-demonstracao.mp4` | Demonstração completa: contexto, fila de aprovação, capa, Raio-X e Pre-Flight. |
+| `assets/media/perkus-demonstracao.jpg` | Imagem de apresentação extraída da versão editada. |
+| `assets/media/perkus-demonstracao.vtt` | Descrição visual em português, também disponível no texto da página. |
 
-Ambos são H.264 em 1280×720, sem áudio e sem metadados herdados do arquivo de origem. Isso evita publicar locução parcial, música de terceiros e metadados do ambiente de produção audiovisual. Os players não têm autoplay nem serviços de terceiros e carregam sob demanda. Descrições visuais estão disponíveis em texto e WebVTT.
+O MP4 é H.264 em 1920×1080, com áudio AAC e carregamento sob demanda. A música e os efeitos do vídeo enviado são preservados. O player não usa autoplay nem incorpora serviços de terceiros. Os trechos anteriores foram substituídos por esta demonstração completa.
 
-Os vídeos não demonstram a implementação atual da seleção semântica, não constituem benchmark e não comprovam homologação ou operação em produção. O case textual apresenta o estado de desenvolvimento descrito pelo autor.
+A composição usada para retirar as marcas, as fontes e os arquivos internos permanecem locais. Apenas o vídeo final, sua imagem de apresentação e a descrição visual são publicados. O arquivo original foi preservado.
 
-O aviso de campos “anonimizados” no filme original descreve a cobertura visual feita para divulgação; não é uma comprovação de anonimização do conjunto de dados de origem. O indicador “Online” é parte da interface gravada, sem comprovar disponibilidade de um serviço público.
+O PERKUS está em desenvolvimento. O vídeo apresenta visualmente o fluxo do produto; não constitui benchmark nem comprova a implementação atual da seleção semântica, homologação ou operação em produção. O indicador “Online” pertence à interface da demonstração, sem comprovar disponibilidade de um serviço público. A decisão de aprovação permanece com o usuário.
 
-O nome e a identidade do Grupo PZM são usados para identificar o contexto profissional. Os materiais corporativos de demonstração não recebem a licença MIT do código deste site. As marcas permanecem de seus respectivos titulares.
+A licença MIT do código deste site não estende direitos sobre os materiais audiovisuais ou marcas de seus respectivos titulares.
