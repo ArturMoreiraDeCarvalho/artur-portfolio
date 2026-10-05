@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Artur Moreira de Carvalho, Junior Software Developer</title>
+  <desc id="desc">Backend PHP/Laravel, SQL/Oracle and Python for accounting and financial systems.</desc>
+  <rect width="1200" height="630" fill="#fbfbfa"/>
+  <rect x="0" y="0" width="12" height="630" fill="#0f6b5c"/>
+  <g font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+    <text x="96" y="146" fill="#0f6b5c" font-size="24" font-weight="600" letter-spacing="3">JUNIOR SOFTWARE DEVELOPER · BACKEND</text>
+    <text x="96" y="246" fill="#18181b" font-size="76" font-weight="700" letter-spacing="-2">Artur Moreira de Carvalho</text>
+    <text x="96" y="330" fill="#3f3f46" font-size="36" font-weight="600">PHP/Laravel · SQL/Oracle · Python</text>
+    <text x="96" y="384" fill="#3f3f46" font-size="36">Accounting and financial systems</text>
+    <text x="96" y="452" fill="#52525b" font-size="26">Case studies: accounting reconciliation assistant · TrilhaDocs</text>
+    <line x1="96" y1="512" x2="1104" y2="512" stroke="#e4e4e7" stroke-width="2"/>
+    <text x="96" y="562" fill="#52525b" font-size="24">arturmoreiradecarvalho.github.io/artur-portfolio/en</text>
+    <text x="1104" y="562" fill="#52525b" font-size="24" text-anchor="end">Belo Horizonte, Brazil</text>
+  </g>
+</svg>
