@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Artur Moreira de Carvalho | Junior Software Developer · Backend and accounting systems</title>
-  <meta name="description" content="Junior software developer in Belo Horizonte, Brazil. Backend PHP/Laravel, SQL/Oracle and Python for multi-tenant accounting and financial systems. PERKUS case: applied AI with controls." />
+  <meta name="description" content="Junior software developer in Belo Horizonte, Brazil. Backend PHP/Laravel, SQL/Oracle and Python for multi-tenant accounting and financial systems. Accounting reconciliation assistant case: applied AI with controls." />
   <meta name="author" content="Artur Moreira de Carvalho" />
   <meta name="theme-color" content="#fbfbfa" media="(prefers-color-scheme: light)" />
   <meta name="theme-color" content="#111113" media="(prefers-color-scheme: dark)" />
@@ -18,14 +18,14 @@
   <meta property="og:site_name" content="Artur Moreira de Carvalho" />
   <meta property="og:url" content="https://arturmoreiradecarvalho.github.io/artur-portfolio/en/" />
   <meta property="og:title" content="Artur Moreira de Carvalho | Backend, accounting systems and applied AI" />
-  <meta property="og:description" content="Backend PHP/Laravel, SQL/Oracle and Python for multi-tenant accounting and financial systems. PERKUS and TrilhaDocs case studies." />
+  <meta property="og:description" content="Backend PHP/Laravel, SQL/Oracle and Python for multi-tenant accounting and financial systems. Case studies: accounting reconciliation assistant and TrilhaDocs." />
   <meta property="og:image" content="https://arturmoreiradecarvalho.github.io/artur-portfolio/og-image.png" />
   <meta property="og:image:alt" content="Artur Moreira de Carvalho, Junior Software Developer. Backend PHP/Laravel, SQL/Oracle and Python. Accounting and financial systems. Applied AI." />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Artur Moreira de Carvalho | Backend, accounting systems and applied AI" />
-  <meta name="twitter:description" content="Backend PHP/Laravel, SQL/Oracle and Python for accounting and financial systems. PERKUS and TrilhaDocs case studies." />
+  <meta name="twitter:description" content="Backend PHP/Laravel, SQL/Oracle and Python for accounting and financial systems. Case studies: accounting reconciliation assistant and TrilhaDocs." />
   <meta name="twitter:image" content="https://arturmoreiradecarvalho.github.io/artur-portfolio/og-image.png" />
   <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="../styles.css" />
@@ -63,11 +63,11 @@
     <section class="hero container" aria-labelledby="title">
       <p class="eyebrow">Junior Software Developer</p>
       <h1 id="title">Backend for accounting and financial systems, with applied AI kept under control.</h1>
-      <p class="lead">I am Artur Moreira de Carvalho. At PZM Enterprise (Grupo PZM) I work on the backend of a multi-tenant SaaS platform for accounting reconciliation, using PHP 8/Laravel, legacy PHP and Oracle SQL; I use Python for automation and tooling. What sets me apart is the mix of accounting domain knowledge, care for tenant isolation and permissions, and AI used within clear limits, as in PERKUS.</p>
+      <p class="lead">I am Artur Moreira de Carvalho. At PZM Enterprise (Grupo PZM) I work on the backend of a multi-tenant SaaS platform for accounting reconciliation, using PHP 8/Laravel, legacy PHP and Oracle SQL; I use Python for automation and tooling. What sets me apart is the mix of accounting domain knowledge, care for tenant isolation and permissions, and AI used within clear limits, as in the accounting reconciliation assistant I am building.</p>
       <p class="lead">I am looking for junior roles in backend or software development, ideally in financial systems, data or products with applied AI.</p>
       <p class="meta">Belo Horizonte, Brazil · Remote in Brazil or hybrid in Belo Horizonte · Intermediate English</p>
       <div class="actions">
-        <a class="button primary" href="#perkus">Read the PERKUS case</a>
+        <a class="button primary" href="#assistente-conciliacao">Read the assistant case</a>
         <a class="button" href="https://github.com/ArturMoreiraDeCarvalho" rel="noopener noreferrer">GitHub</a>
         <a class="button" href="https://www.linkedin.com/in/artur-moreira-de-carvalho3336/" rel="noopener noreferrer">LinkedIn</a>
       </div>
@@ -116,16 +116,17 @@
       <h2 id="cases-title">Case studies</h2>
       <p class="section-intro">Each case follows the same order: problem, my contribution, technology, decisions and result.</p>
 
-      <article id="perkus" class="case" aria-labelledby="perkus-title">
+      <span id="perkus" aria-hidden="true"></span>
+      <article id="assistente-conciliacao" class="case" aria-labelledby="assistente-conciliacao-title">
         <div>
           <p class="eyebrow">Case 01 · Work</p>
-          <h3 id="perkus-title">PERKUS: accounting reconciliation assistant</h3>
+          <h3 id="assistente-conciliacao-title">Accounting reconciliation assistant</h3>
           <div class="case-meta"><span class="tag status">In development</span><span class="tag">Proprietary code</span></div>
           <dl>
             <dt>Problem</dt>
             <dd>People working on reconciliation, period close and tax calculation need guidance and operational lookups on the screen they are using: deadlines, open items, approvals and balances. Every answer must respect the user's permissions and the isolation between clients.</dd>
             <dt>My contribution</dt>
-            <dd>I designed the architecture and I am the only developer on the module, working with AI coding agents. PERKUS runs on top of the product's existing tenancy platform.</dd>
+            <dd>I designed the architecture and I am the only developer on the module, working with AI coding agents. The assistant runs on top of the product's existing tenancy platform.</dd>
             <dt>Technology</dt>
             <dd>PHP 8/Laravel, Oracle SQL, JavaScript on the legacy screens, an external AI model via API, automated tests.</dd>
             <dt>Decisions</dt>
@@ -142,8 +143,8 @@
             <dd>The module is implemented in a development environment, with automated tests and offline evaluation (held-out set and adversarial cases). It has not been deployed to production and has not had a user pilot yet.</dd>
           </dl>
         </div>
-        <figure class="diagram" aria-labelledby="perkus-flow">
-          <figcaption id="perkus-flow">How a question flows</figcaption>
+        <figure class="diagram" aria-labelledby="assistente-flow">
+          <figcaption id="assistente-flow">How a question flows</figcaption>
           <ol>
             <li><strong>Product screen</strong>A widget sends the question and the screen context.</li>
             <li><strong>Laravel endpoint</strong>Authenticated route with rate limiting.</li>
@@ -233,7 +234,7 @@
             <ul>
               <li>Features and fixes for accounting reconciliation, period-close scheduling, tax obligations and manual journal entries.</li>
               <li>Re-authentication for critical actions, tenant-bound sessions and division-level authorization, with tests.</li>
-              <li>Architecture and development of PERKUS (in development).</li>
+              <li>Architecture and development of an accounting reconciliation assistant (in development).</li>
               <li>Local QA environment with Docker; Python tools for data curation and validation.</li>
             </ul>
           </div>
@@ -251,7 +252,7 @@
           </div>
         </li>
       </ol>
-      <p class="section-intro education">Education: Associate degree (Tecnólogo) in Systems Analysis and Development, PUC Minas (2021–2025).</p>
+      <p class="section-intro education">Education: Associate degree (Tecnólogo) in Systems Analysis and Development, PUC Minas (Mar 2021 – expected 2026).</p>
     </section>
 
     <section id="contact" class="section container" aria-labelledby="contact-title">
@@ -265,7 +266,7 @@
   </main>
 
   <footer class="site-footer">
-    <div class="container"><p>© 2026 Artur Moreira de Carvalho. PERKUS is owned by Grupo PZM; this site does not publish product code, screens or data.</p></div>
+    <div class="container"><p>© 2026 Artur Moreira de Carvalho. The accounting reconciliation assistant is owned by Grupo PZM; this site does not publish product code, screens or data.</p></div>
   </footer>
 </body>
 </html>

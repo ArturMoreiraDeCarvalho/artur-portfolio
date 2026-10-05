@@ -8,7 +8,7 @@ Site estático do portfólio de Artur Moreira de Carvalho, desenvolvedor de soft
 ## Conteúdo
 
 - Atuação: só áreas com trabalho real, no emprego ou em código público.
-- Case PERKUS (trabalho, código proprietário): problema, contribuição, tecnologia, decisões e status, com um diagrama próprio. O site não publica código, telas nem dados do produto.
+- Case do assistente de conciliação contábil (trabalho, código proprietário): problema, contribuição, tecnologia, decisões e status, com um diagrama próprio. O site não publica código, telas nem dados do produto.
 - Case TrilhaDocs (código público) e projetos de estudo (Data Quality CLI, Task Health API).
 - Experiência e contato.
 
@@ -24,4 +24,4 @@ Abra `index.html` no navegador ou sirva a pasta com qualquer servidor estático.
 
 ## Licença
 
-Código sob a licença [MIT](LICENSE). PERKUS é propriedade do Grupo PZM; a licença não se estende a marcas ou materiais de terceiros.
+Código sob a licença [MIT](LICENSE). O assistente de conciliação contábil descrito no site é propriedade do Grupo PZM; a licença não se estende a marcas ou materiais de terceiros.
