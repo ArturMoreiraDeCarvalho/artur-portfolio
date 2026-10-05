@@ -3,136 +3,269 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Artur Moreira de Carvalho, desenvolvedor backend júnior. PHP/Laravel, SQL e Oracle em sistemas financeiros; automação em Python e IA aplicada no PERKUS." />
-  <meta name="theme-color" content="#0b1020" />
+  <title>Artur Moreira de Carvalho | Desenvolvedor de Software Júnior · Backend e sistemas contábeis</title>
+  <meta name="description" content="Desenvolvedor de software júnior em Belo Horizonte. Backend PHP/Laravel, SQL/Oracle e Python em sistemas financeiros e contábeis multi-tenant. Case PERKUS: IA aplicada com controles." />
+  <meta name="author" content="Artur Moreira de Carvalho" />
+  <meta name="theme-color" content="#fbfbfa" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#111113" media="(prefers-color-scheme: dark)" />
   <link rel="canonical" href="https://arturmoreiradecarvalho.github.io/artur-portfolio/" />
-  <meta property="og:type" content="website" />
+  <link rel="alternate" hreflang="pt-BR" href="https://arturmoreiradecarvalho.github.io/artur-portfolio/" />
+  <link rel="alternate" hreflang="en" href="https://arturmoreiradecarvalho.github.io/artur-portfolio/en/" />
+  <link rel="alternate" hreflang="x-default" href="https://arturmoreiradecarvalho.github.io/artur-portfolio/" />
+  <meta property="og:type" content="profile" />
+  <meta property="og:locale" content="pt_BR" />
+  <meta property="og:locale:alternate" content="en_US" />
+  <meta property="og:site_name" content="Artur Moreira de Carvalho" />
   <meta property="og:url" content="https://arturmoreiradecarvalho.github.io/artur-portfolio/" />
-  <meta property="og:title" content="Artur Moreira de Carvalho | Backend, dados e IA aplicada" />
-  <meta property="og:description" content="Conheça o case PERKUS, os projetos Python e minha experiência com sistemas financeiros e contábeis." />
+  <meta property="og:title" content="Artur Moreira de Carvalho | Backend, sistemas contábeis e IA aplicada" />
+  <meta property="og:description" content="Backend PHP/Laravel, SQL/Oracle e Python em sistemas financeiros e contábeis multi-tenant. Cases PERKUS e TrilhaDocs." />
   <meta property="og:image" content="https://arturmoreiradecarvalho.github.io/artur-portfolio/og-image.png" />
-  <meta property="og:image:alt" content="Artur Moreira de Carvalho — Backend, dados e IA aplicada. PERKUS em destaque." />
+  <meta property="og:image:alt" content="Artur Moreira de Carvalho, Desenvolvedor de Software Júnior. Backend PHP/Laravel, SQL/Oracle e Python. Sistemas financeiros e contábeis. IA aplicada." />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Artur Moreira de Carvalho | Backend, dados e IA aplicada" />
-  <meta name="twitter:description" content="PHP/Laravel, SQL e Oracle. Automação em Python e o case PERKUS." />
+  <meta name="twitter:title" content="Artur Moreira de Carvalho | Backend, sistemas contábeis e IA aplicada" />
+  <meta name="twitter:description" content="Backend PHP/Laravel, SQL/Oracle e Python em sistemas financeiros e contábeis. Cases PERKUS e TrilhaDocs." />
   <meta name="twitter:image" content="https://arturmoreiradecarvalho.github.io/artur-portfolio/og-image.png" />
-  <title>Artur Moreira de Carvalho | Backend, dados e IA aplicada</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="styles.css" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Artur Moreira de Carvalho",
+    "jobTitle": "Desenvolvedor de Software Júnior",
+    "worksFor": { "@type": "Organization", "name": "Grupo PZM" },
+    "address": { "@type": "PostalAddress", "addressLocality": "Belo Horizonte", "addressRegion": "MG", "addressCountry": "BR" },
+    "url": "https://arturmoreiradecarvalho.github.io/artur-portfolio/",
+    "sameAs": ["https://github.com/ArturMoreiraDeCarvalho", "https://www.linkedin.com/in/artur-moreira-de-carvalho3336/"],
+    "knowsAbout": ["PHP", "Laravel", "SQL", "Oracle Database", "Python", "Multi-tenant SaaS", "Accounting reconciliation", "Applied AI", "Automated testing"]
+  }
+  </script>
 </head>
 <body>
   <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
   <header class="site-header">
     <nav class="nav container" aria-label="Navegação principal">
-      <a class="brand" href="#top" aria-label="Artur Moreira — início">AMC<span>.</span></a>
-      <div class="nav-links">
-        <a href="#perkus">PERKUS</a><a href="#projetos">Projetos</a><a href="#experiencia">Experiência</a>
-        <a class="nav-cta" href="https://www.linkedin.com/in/artur-moreira-de-carvalho3336/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
-      </div>
+      <a class="brand" href="#conteudo">Artur Moreira de Carvalho</a>
+      <ul>
+        <li><a href="#atuacao">Atuação</a></li>
+        <li><a href="#cases">Cases</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#experiencia">Experiência</a></li>
+        <li><a href="#contato">Contato</a></li>
+        <li><a class="lang" href="en/" hreflang="en" lang="en">English</a></li>
+      </ul>
     </nav>
   </header>
+
   <main id="conteudo">
-    <section id="top" class="hero container" aria-labelledby="hero-title">
-      <div class="hero-copy">
-        <p class="eyebrow">ARTUR MOREIRA DE CARVALHO</p>
-        <h1 id="hero-title">Backend, dados<br />e <span>IA aplicada.</span></h1>
-        <p class="hero-text">Desenvolvedor backend júnior no Grupo PZM. Trabalho com PHP/Laravel, SQL e Oracle em aplicações financeiras e contábeis, da validação dos dados às regras de negócio.</p>
-        <p class="hero-detail">Belo Horizonte · Remoto no Brasil ou híbrido em BH</p>
-        <div class="hero-actions"><a class="button primary" href="#demonstracoes">Assistir ao PERKUS · 35 s ↓</a><a class="button secondary" href="https://github.com/ArturMoreiraDeCarvalho" target="_blank" rel="noopener noreferrer">Ver GitHub ↗</a></div>
+    <section class="hero container" aria-labelledby="titulo">
+      <p class="eyebrow">Desenvolvedor de Software Júnior</p>
+      <h1 id="titulo">Backend para sistemas financeiros e contábeis, com IA aplicada sob controle.</h1>
+      <p class="lead">Sou Artur Moreira de Carvalho. Trabalho na PZM Enterprise (Grupo PZM) no backend de uma plataforma SaaS multi-tenant de conciliação contábil, com PHP 8/Laravel, Oracle SQL e Python. Meu diferencial é juntar domínio contábil, cuidado com isolamento e permissões, e uso de IA com limites claros, como no PERKUS.</p>
+      <p class="lead">Busco oportunidades júnior em backend ou desenvolvimento de software, de preferência em sistemas financeiros, dados ou produtos com IA aplicada.</p>
+      <p class="meta">Belo Horizonte, MG · Remoto no Brasil ou híbrido em BH · Inglês intermediário</p>
+      <div class="actions">
+        <a class="button primary" href="#perkus">Ver o case PERKUS</a>
+        <a class="button" href="https://github.com/ArturMoreiraDeCarvalho" rel="noopener noreferrer">GitHub</a>
+        <a class="button" href="https://www.linkedin.com/in/artur-moreira-de-carvalho3336/" rel="noopener noreferrer">LinkedIn</a>
       </div>
-      <aside class="hero-card" aria-label="Projeto em destaque">
-        <div class="status"><span aria-hidden="true"></span> Projeto em desenvolvimento</div>
-        <p class="card-label">CASE EM DESTAQUE</p><p class="hero-project">PERKUS</p>
-        <p class="focus">Contexto da tela.<br />Regras no backend.<br />Inferência com limites.</p>
-        <div class="card-divider"></div>
-        <p class="stack-line">Assistente de conciliação contábil que concebi e implementei no PZMWeb.</p>
-        <a class="project-link" href="#perkus">Explorar o case ↗</a>
-      </aside>
     </section>
-    <section id="perkus" class="section container" aria-labelledby="perkus-title">
-      <div class="section-heading split-heading">
-        <div><p class="eyebrow">01 / CASE PRINCIPAL</p><h2 id="perkus-title">PERKUS.<br />IA conectada ao contexto do produto.</h2></div>
-        <p class="section-note">Concepção e implementação integral por mim.<br /><span class="pill">Em desenvolvimento</span></p>
-      </div>
-      <p class="section-lead">Como apoiar a conferência de conciliações sem perder o contexto da tela, as permissões do usuário e o controle sobre os dados?</p>
-      <div class="case-grid">
-        <article class="case-copy">
-          <h3>O problema</h3><p>Em um fluxo contábil, uma resposta útil depende da etapa, das pendências e do acesso permitido. O assistente precisa respeitar essas regras para orientar a conferência.</p>
-          <h3>O que construí</h3><p>Concebi e implementei o PERKUS no PZMWeb. A solução combina o contexto da interface com uma integração semântica restrita para selecionar respostas candidatas. O backend controla autorização, escopo das consultas e acesso aos dados.</p>
-          <h3>Decisões que importam</h3>
-          <ul class="case-list"><li><strong>Contexto antes da resposta:</strong> a tela e a etapa do fluxo orientam o atendimento.</li><li><strong>Permissões no backend:</strong> o modelo não recebe autonomia para consultar dados.</li><li><strong>Validação e fallback:</strong> a seleção precisa passar pelos controles da aplicação.</li></ul>
-          <div class="tags"><span>PHP/Laravel</span><span>SQL / Oracle</span><span>IA aplicada</span><span>Engenharia de contexto</span></div>
+
+    <section id="atuacao" class="section container" aria-labelledby="atuacao-titulo">
+      <h2 id="atuacao-titulo">Atuação</h2>
+      <p class="section-intro">Só listo áreas em que há trabalho real, no emprego ou em código público.</p>
+      <div class="grid grid-2">
+        <article class="card">
+          <h3>Backend multi-tenant</h3>
+          <ul>
+            <li>PHP 8/Laravel e PHP legado em uma plataforma SaaS de conciliação contábil.</li>
+            <li>Isolamento por cliente, autorização no servidor e reautenticação para ações críticas.</li>
+            <li>Oracle SQL: consultas, views, sequences e scripts de migração.</li>
+          </ul>
         </article>
-        <figure class="flow-card">
-          <figcaption><span class="card-label">FLUXO SIMPLIFICADO</span><h3>Da tela à orientação</h3></figcaption>
-          <ol class="flow-steps"><li><span class="step-number">01</span><div><strong>Contexto da tela</strong><p>Etapa e informações relevantes do fluxo.</p></div></li><li><span class="step-number">02</span><div><strong>Backend e permissões</strong><p>Autorização e escopo definidos pela aplicação.</p></div></li><li><span class="step-number">03</span><div><strong>Seleção semântica</strong><p>Inferência restrita entre respostas candidatas.</p></div></li><li><span class="step-number">04</span><div><strong>Validação e fallback</strong><p>Controles antes de apresentar a orientação.</p></div></li></ol>
-          <p class="flow-footnote">Diagrama explicativo, sem dados internos ou código corporativo.</p>
+        <article class="card">
+          <h3>Dados financeiros e contábeis</h3>
+          <ul>
+            <li>Conciliação, cronograma de fechamento, tributos e obrigações, lançamentos manuais.</li>
+            <li>Importação de balancetes com verificação de duplicidade e validação de entrada.</li>
+            <li>Relatórios, exportação para Excel e indicadores de conciliação.</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Qualidade e testes</h3>
+          <ul>
+            <li>Testes automatizados com PHPUnit/Pest, Cypress e pytest.</li>
+            <li>Introduzi o Cypress no projeto: configuração, comandos e testes E2E de login e aprovação.</li>
+            <li>CI com GitHub Actions nos projetos públicos.</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>IA aplicada e desenvolvimento assistido por IA</h3>
+          <ul>
+            <li>Modelo de IA externo usado como classificador, com mascaramento de dados, timeout e fallback.</li>
+            <li>Avaliação offline com conjunto reservado e casos de prompt injection.</li>
+            <li>Regras e contexto para agentes de código, servidor MCP local e grafo de conhecimento do código.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="cases" class="section container" aria-labelledby="cases-titulo">
+      <h2 id="cases-titulo">Cases</h2>
+      <p class="section-intro">Cada case segue a mesma ordem: problema, minha contribuição, tecnologia, decisões e resultado.</p>
+
+      <article id="perkus" class="case" aria-labelledby="perkus-titulo">
+        <div>
+          <p class="eyebrow">Case 01 · Trabalho</p>
+          <h3 id="perkus-titulo">PERKUS: assistente de conciliação contábil</h3>
+          <div class="case-meta"><span class="tag status">Em desenvolvimento</span><span class="tag">Código proprietário</span></div>
+          <dl>
+            <dt>Problema</dt>
+            <dd>Quem trabalha com conciliação, fechamento e apuração precisa de orientação e de consultas operacionais na própria tela: prazos, pendências, aprovações e saldos. A resposta tem que respeitar as permissões do usuário e o isolamento entre clientes.</dd>
+            <dt>Minha contribuição</dt>
+            <dd>Projetei a arquitetura e desenvolvo o módulo como único desenvolvedor, com desenvolvimento assistido por agentes de IA. O PERKUS roda sobre a plataforma de tenancy já existente no produto.</dd>
+            <dt>Tecnologia</dt>
+            <dd>PHP 8/Laravel, Oracle SQL, JavaScript nas telas legadas, um modelo de IA externo via API, testes automatizados.</dd>
+            <dt>Decisões</dt>
+            <dd>
+              <ul>
+                <li><strong>Núcleo determinístico.</strong> Regras, recuperação lexical sobre uma base de conhecimento curada e consultas aos dados do próprio cliente. O texto sai de templates.</li>
+                <li><strong>IA com papel restrito.</strong> O modelo só classifica a intenção, sinaliza risco de prompt injection e desempata respostas candidatas. Ele não gera a resposta e não consulta dados.</li>
+                <li><strong>Dados mínimos.</strong> CPF/CNPJ, e-mails e valores são mascarados antes da chamada. Nada de SQL, tenant ou dado financeiro vai para o modelo.</li>
+                <li><strong>Falha segura.</strong> Timeout curto, circuit breaker e volta ao caminho determinístico. As respostas tipadas do modelo são validadas.</li>
+                <li><strong>Permissões no servidor.</strong> Identidade, tenant e acesso resolvidos no backend. Ações da interface são tipadas e decididas pelo servidor.</li>
+              </ul>
+            </dd>
+            <dt>Resultado</dt>
+            <dd>Módulo implementado em ambiente de desenvolvimento, com testes automatizados e avaliação offline (conjunto reservado e casos adversariais). Ainda não foi implantado em produção nem passou por piloto com usuários.</dd>
+          </dl>
+        </div>
+        <figure class="diagram" aria-labelledby="perkus-fluxo">
+          <figcaption id="perkus-fluxo">Fluxo de uma pergunta</figcaption>
+          <ol>
+            <li><strong>Tela do produto</strong>Widget envia a pergunta e o contexto da tela.</li>
+            <li><strong>Endpoint Laravel</strong>Rota autenticada com limite de requisições.</li>
+            <li><strong>Identidade, tenant e permissões</strong>Resolvidos no servidor.</li>
+            <li><strong>Regras e base curada</strong>Interpretação e recuperação lexical de candidatos.</li>
+            <li class="optional"><strong>Modelo externo (opcional)</strong>Intenção, risco de injeção e desempate, com dados mascarados.</li>
+            <li><strong>Consultas Oracle do cliente</strong>Templates montam a resposta.</li>
+            <li><strong>Contrato validado</strong>Resposta e ações tipadas conferidas antes de exibir.</li>
+          </ol>
+          <p class="note">Diagrama próprio, sem código, telas ou dados do produto. O passo 5 pode falhar sem derrubar o fluxo.</p>
         </figure>
-      </div>
-      <div id="demonstracoes" class="gallery-heading"><p class="eyebrow">DEMONSTRAÇÃO DO PRODUTO</p><h3>PERKUS em ação</h3><p>Em 35 segundos, acompanhe o contexto da tela, a fila de aprovação, a conferência de saldos, o Raio-X e o Pre-Flight. O vídeo usa dados e nomes fictícios e mostra a proposta do fluxo; o projeto está em desenvolvimento.</p></div>
-      <div class="video-grid video-grid-single">
-        <figure class="video-card">
-          <video controls playsinline preload="none" poster="assets/media/perkus-demonstracao.jpg" aria-label="PERKUS em ação: demonstração de 35 segundos com dados fictícios" aria-describedby="perkus-video-description">
-            <source src="assets/media/perkus-demonstracao.mp4" type="video/mp4" />
-            <track kind="descriptions" src="assets/media/perkus-demonstracao.vtt" srclang="pt-BR" label="Descrição visual em português" />
-            Seu navegador não reproduz o vídeo. <a href="assets/media/perkus-demonstracao.mp4">Abrir demonstração do PERKUS</a>.
-          </video>
-          <figcaption><span class="pill">Demonstração · 35 s · Dados fictícios</span><h4>Da pergunta à evidência</h4><p id="perkus-video-description">O assistente reúne prazo, variação mensal, saldos, anexos e pendências para apoiar a revisão contábil. A decisão final permanece com o usuário. Música e efeitos acompanham as legendas na tela.</p><a class="project-link" href="assets/media/perkus-demonstracao.mp4">Abrir vídeo completo ↗</a><details><summary>Descrição visual do vídeo</summary><p>O mascote apresenta o PERKUS. A câmera percorre o painel de conciliação, destaca a fila de aprovação e abre uma capa com saldos fictícios. No chat, o Raio-X resume prazo, variação mensal e pendências; o Pre-Flight organiza verificações de saldos, anexos, pendências e período. O guia lembra que a decisão final é do usuário. O encerramento traz “Da pergunta à evidência. Da evidência ao próximo passo.” e o aviso de dados fictícios.</p></details><p class="flow-footnote">Demonstração visual do produto. Não comprova disponibilidade pública, homologação, operação em produção ou resultados operacionais.</p></figcaption>
+      </article>
+
+      <article id="trilhadocs" class="case" aria-labelledby="trilhadocs-titulo">
+        <div>
+          <p class="eyebrow">Case 02 · Código público</p>
+          <h3 id="trilhadocs-titulo">TrilhaDocs: pacotes verificáveis de documentos contábeis</h3>
+          <div class="case-meta"><span class="tag">Python</span><span class="tag">Dados sintéticos</span><span class="tag">Projeto pessoal</span></div>
+          <dl>
+            <dt>Problema</dt>
+            <dd>Em rotinas de fechamento, capas e anexos são reunidos e entregues por empresa e divisão. É preciso provar que nada ficou de fora e que os arquivos entregues são iguais aos de origem.</dd>
+            <dt>Minha contribuição</dt>
+            <dd>Projeto pessoal, desenvolvido de forma independente com dados sintéticos: modelagem do inventário, CLI, empacotamento, verificação, testes e CI.</dd>
+            <dt>Tecnologia</dt>
+            <dd>Python 3.11+, pydantic, typer, pypdf, pytest, ruff, GitHub Actions (Ubuntu e Windows, Python 3.11 e 3.12).</dd>
+            <dt>Decisões</dt>
+            <dd>
+              <ul>
+                <li>Quatro comandos separados: <code>validate</code>, <code>preview</code>, <code>build</code> e <code>verify</code>.</li>
+                <li>Inventário JSONL e configuração TOML tipados; tamanho, SHA-256 e estrutura do PDF conferidos antes de empacotar.</li>
+                <li>ZIPs gravados de forma atômica e retomável, sem sobrescrever saídas existentes.</li>
+                <li>Verificação independente que reabre os ZIPs e compara com o inventário.</li>
+                <li>Journal com minimização de dados e limites de LGPD documentados.</li>
+              </ul>
+            </dd>
+            <dt>Resultado</dt>
+            <dd>CLI publicada com suíte de testes e CI em matriz. Organiza e verifica documentos; não extrai dados do conteúdo dos PDFs.</dd>
+          </dl>
+          <p><a href="https://github.com/ArturMoreiraDeCarvalho/trilhadocs" rel="noopener noreferrer">Código, testes e demonstração no GitHub</a></p>
+        </div>
+        <figure class="diagram" aria-labelledby="trilhadocs-fluxo">
+          <figcaption id="trilhadocs-fluxo">Fluxo da CLI</figcaption>
+          <ol>
+            <li><strong>validate</strong>Configuração, inventário, tamanho, SHA-256 e estrutura dos PDFs.</li>
+            <li><strong>preview</strong>Contagens e estimativas, sem gravar nada.</li>
+            <li><strong>build</strong>ZIPs por empresa e divisão, manifestos, resumo e journal.</li>
+            <li><strong>verify</strong>Reabre os pacotes e compara cobertura e conteúdo.</li>
+          </ol>
         </figure>
-      </div>
-      <div class="case-boundary"><strong>O que este case demonstra</strong><p>Backend, regras de negócio contábeis, integração de sistemas e uso controlado de inferência semântica. O projeto está em desenvolvimento; implantação em produção e resultados operacionais não são apresentados como comprovados.</p></div>
+      </article>
     </section>
-    <section id="projetos" class="section container" aria-labelledby="projects-title">
-      <div class="section-heading split-heading"><div><p class="eyebrow">02 / CÓDIGO PÚBLICO</p><h2 id="projects-title">Projetos que você<br />pode executar e avaliar.</h2></div><p class="section-note">Python e Node.js demonstrados em projetos independentes de portfólio.</p></div>
-      <div class="project-grid">
-        <article class="project-card featured-card">
-          <div class="project-topline"><span class="project-number">01 / PYTHON</span><span class="pill">Dados sintéticos</span></div>
-          <h3>TrilhaDocs</h3><p class="project-subtitle">Organização documental com integridade verificável.</p>
-          <p>CLI que valida inventários JSONL, confere tamanho e SHA-256 dos arquivos de origem e organiza ZIPs com manifestos. Uma etapa independente verifica cobertura e integridade.</p>
-          <div class="tags"><span>Python</span><span>SHA-256</span><span>Manifestos</span><span>Automação</span></div>
-          <a class="project-link" href="https://github.com/ArturMoreiraDeCarvalho/trilhadocs" target="_blank" rel="noopener noreferrer">Código, testes e demonstração ↗</a>
+
+    <section id="projetos" class="section container" aria-labelledby="projetos-titulo">
+      <h2 id="projetos-titulo">Outros projetos</h2>
+      <div class="grid grid-2">
+        <article class="card">
+          <h3>Ferramentas para agentes de código</h3>
+          <p>Uso interno, não publicado. Um servidor MCP local (JSON-RPC por stdio, ferramentas somente leitura com timeout) e um grafo de conhecimento do código e da documentação em SQLite. Servem para dar contexto confiável aos agentes que uso no desenvolvimento.</p>
+          <p><span class="tag">Python</span> <span class="tag">MCP</span> <span class="tag">SQLite</span></p>
         </article>
-        <article class="project-card">
-          <div class="project-topline"><span class="project-number">02 / PYTHON</span><span class="pill">Portfólio</span></div>
-          <h3>Data Quality CLI</h3><p class="project-subtitle">Verificação de dados antes da próxima etapa.</p>
-          <p>Valida arquivos CSV: colunas obrigatórias, duplicidades, campos vazios e datas. Gera relatórios JSON, com testes em pytest e verificações automatizadas no GitHub Actions.</p>
-          <div class="tags"><span>Python</span><span>CSV → JSON</span><span>pytest</span><span>Qualidade dos dados</span></div>
-          <a class="project-link" href="https://github.com/ArturMoreiraDeCarvalho/python-data-quality-cli" target="_blank" rel="noopener noreferrer">Código e exemplos de validação ↗</a>
+        <article class="card">
+          <h3><a href="https://github.com/ArturMoreiraDeCarvalho/python-data-quality-cli" rel="noopener noreferrer">Data Quality CLI</a></h3>
+          <p>Projeto de estudo. Valida CSV antes de uma carga: colunas obrigatórias, duplicidades, campos vazios e datas ISO. Relatório em texto ou JSON e códigos de saída para usar em scripts.</p>
+          <p><span class="tag">Python</span> <span class="tag">pytest</span> <span class="tag">GitHub Actions</span></p>
         </article>
-        <article class="project-card compact-card">
-          <div class="project-topline"><span class="project-number">03 / BACKEND</span><span class="pill">Estudo</span></div>
-          <h3>Task Health API</h3><p>API REST didática em Node.js com validação, testes de integração, Docker e contrato OpenAPI. O armazenamento em memória delimita o escopo do estudo.</p>
-          <div class="tags"><span>Node.js</span><span>REST</span><span>Docker</span><span>OpenAPI</span></div>
-          <a class="project-link" href="https://github.com/ArturMoreiraDeCarvalho/node-rest-api-healthcheck" target="_blank" rel="noopener noreferrer">Explorar a API ↗</a>
+        <article class="card">
+          <h3><a href="https://github.com/ArturMoreiraDeCarvalho/node-rest-api-healthcheck" rel="noopener noreferrer">Task Health API</a></h3>
+          <p>Projeto de estudo. API REST didática com health check, validação de payload, armazenamento em memória, contrato OpenAPI e testes de integração.</p>
+          <p><span class="tag">Node.js</span> <span class="tag">OpenAPI</span> <span class="tag">Docker</span></p>
         </article>
-        <article class="project-card compact-card">
-          <div class="project-topline"><span class="project-number">04 / WEB</span><span class="pill">Este site</span></div>
-          <h3>Portfólio profissional</h3><p>HTML e CSS, navegação por teclado, layout responsivo e suporte à preferência de movimento reduzido. Uma apresentação direta dos projetos e da experiência.</p>
-          <div class="tags"><span>HTML</span><span>CSS</span><span>Acessibilidade</span></div>
-          <a class="project-link" href="https://github.com/ArturMoreiraDeCarvalho/artur-portfolio" target="_blank" rel="noopener noreferrer">Ver o código deste site ↗</a>
+        <article class="card">
+          <h3><a href="https://github.com/ArturMoreiraDeCarvalho/artur-portfolio" rel="noopener noreferrer">Este portfólio</a></h3>
+          <p>HTML e CSS estáticos, sem JavaScript nem recursos de terceiros. Publicado pelo GitHub Pages.</p>
+          <p><span class="tag">HTML</span> <span class="tag">CSS</span> <span class="tag">Acessibilidade</span></p>
         </article>
       </div>
     </section>
-    <section id="experiencia" class="section container" aria-labelledby="experience-title">
-      <div class="section-heading"><p class="eyebrow">03 / EXPERIÊNCIA</p><h2 id="experience-title">Software com contexto<br />financeiro e contábil.</h2></div>
-      <div class="timeline">
-        <article class="timeline-item"><p class="timeline-date">AGO/2025 — ATUAL</p><div><h3>Desenvolvedor de Software Júnior</h3><p class="company">Grupo PZM · Belo Horizonte · Híbrido</p><p>Aplicações financeiras e contábeis em PHP/Laravel e SQL/Oracle. Indicadores de situação, pendências e vencimentos, fluxos de conciliação, validação de importações e investigação de divergências. Concepção e implementação do PERKUS em desenvolvimento.</p></div></article>
-        <article class="timeline-item"><p class="timeline-date">JAN/2024 — JUL/2025</p><div><h3>Estagiário de Desenvolvimento Full Stack</h3><p class="company">Grupo PZM</p><p>Funcionalidades de conciliação por divisão e período, relatórios Oracle com exportação CSV, detecção de códigos duplicados em importações de saldos CSV/TXT e configuração de Cypress para apoiar a validação dos fluxos.</p></div></article>
-      </div>
-      <div class="education"><span class="card-label">FORMAÇÃO</span><p><strong>Análise e Desenvolvimento de Sistemas · PUC Minas</strong><br />Curso em conclusão.</p></div>
+
+    <section id="experiencia" class="section container" aria-labelledby="experiencia-titulo">
+      <h2 id="experiencia-titulo">Experiência</h2>
+      <ol class="timeline">
+        <li>
+          <p class="period">Ago 2025 – atual</p>
+          <div>
+            <h3>Desenvolvedor de Software Júnior</h3>
+            <p class="org">PZM Enterprise (Grupo PZM) · Belo Horizonte</p>
+            <ul>
+              <li>Funcionalidades e correções em conciliação contábil, cronograma de fechamento, tributos e obrigações e lançamentos manuais.</li>
+              <li>Reautenticação para ações críticas, sessão vinculada ao tenant e autorização por divisão, com testes.</li>
+              <li>Arquitetura e desenvolvimento do PERKUS (em desenvolvimento).</li>
+              <li>Ambiente local de QA com Docker; ferramentas em Python para curadoria e validação de dados.</li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <p class="period">Jan 2024 – Jul 2025</p>
+          <div>
+            <h3>Estagiário Full-Stack</h3>
+            <p class="org">PZM Enterprise (Grupo PZM) · Belo Horizonte</p>
+            <ul>
+              <li>Features e correções em módulos legados PHP e serviços Laravel de conciliação e fechamento.</li>
+              <li>Verificação de duplicidade na importação de balancetes e padronização da geração de relatórios em Excel.</li>
+              <li>Internacionalização PT/ES/EN e introdução do Cypress para testes E2E.</li>
+            </ul>
+          </div>
+        </li>
+      </ol>
+      <p class="section-intro education">Formação: Tecnólogo em Análise e Desenvolvimento de Sistemas, PUC Minas (2021–2025).</p>
     </section>
-    <section class="section container" aria-labelledby="skills-title">
-      <div class="section-heading"><p class="eyebrow">04 / COMPETÊNCIAS</p><h2 id="skills-title">Tecnologia ligada<br />a uma evidência.</h2></div>
-      <div class="skills-grid">
-        <article><h3>Experiência profissional</h3><p>Backend em sistemas financeiros e contábeis.</p><div class="tags"><span>PHP / Laravel</span><span>SQL / Oracle</span><span>Conciliação contábil</span><span>Validação de importações</span><span>Cypress</span></div></article>
-        <article><h3>Projetos públicos</h3><p>Automação, qualidade de dados e APIs.</p><div class="tags"><span>Python / pytest</span><span>Node.js / REST</span><span>GitHub Actions</span><span>Docker</span><span>Git</span></div></article>
-        <article><h3>PERKUS</h3><p>Integração de IA com controles da aplicação.</p><div class="tags"><span>IA aplicada</span><span>Engenharia de contexto</span><span>Integração de sistemas</span><span>Validação e fallback</span></div></article>
+
+    <section id="contato" class="section container" aria-labelledby="contato-titulo">
+      <h2 id="contato-titulo">Contato</h2>
+      <p class="section-intro">O melhor canal é o LinkedIn. O código público está no GitHub.</p>
+      <div class="actions">
+        <a class="button primary" href="https://www.linkedin.com/in/artur-moreira-de-carvalho3336/" rel="noopener noreferrer">Falar no LinkedIn</a>
+        <a class="button" href="https://github.com/ArturMoreiraDeCarvalho" rel="noopener noreferrer">GitHub</a>
       </div>
     </section>
-    <section class="contact container" aria-labelledby="contact-title"><p class="eyebrow">VAMOS CONVERSAR</p><h2 id="contact-title">Backend e dados<br />para a próxima entrega.</h2><p>Busco oportunidades júnior em desenvolvimento backend ou de software, com interesse em sistemas financeiros, qualidade de dados, automação e integração controlada de IA.</p><div class="hero-actions"><a class="button primary" href="https://www.linkedin.com/in/artur-moreira-de-carvalho3336/" target="_blank" rel="noopener noreferrer">Conversar no LinkedIn ↗</a><a class="button secondary" href="https://github.com/ArturMoreiraDeCarvalho" target="_blank" rel="noopener noreferrer">Explorar meu GitHub ↗</a></div></section>
   </main>
-  <footer class="site-footer container"><span>© 2026 Artur Moreira de Carvalho</span><span>HTML + CSS · Projetos e demonstrações com escopo identificado</span></footer>
+
+  <footer class="site-footer">
+    <div class="container"><p>© 2026 Artur Moreira de Carvalho. O PERKUS é propriedade do Grupo PZM; este site não publica código, telas ou dados do produto.</p></div>
+  </footer>
 </body>
 </html>
