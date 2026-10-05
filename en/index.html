@@ -21,7 +21,7 @@
   <meta property="og:site_name" content="Artur Moreira de Carvalho" />
   <meta property="og:url" content="https://arturmoreiradecarvalho.github.io/artur-portfolio/en/" />
   <meta property="og:title" content="Artur Moreira de Carvalho | Backend for accounting and financial systems" />
-  <meta property="og:description" content="Junior software developer: PHP/Laravel, SQL/Oracle and Python. Case studies on an accounting reconciliation assistant and TrilhaDocs, résumé and contact." />
+  <meta property="og:description" content="Junior software developer: PHP/Laravel, SQL/Oracle and Python. Case studies on the AI Accounting Assistant (with a demo video) and TrilhaDocs, résumé and contact." />
   <meta property="og:image" content="https://arturmoreiradecarvalho.github.io/artur-portfolio/og-image-en.png" />
   <meta property="og:image:type" content="image/png" />
   <meta property="og:image:width" content="1200" />
@@ -29,7 +29,7 @@
   <meta property="og:image:alt" content="Artur Moreira de Carvalho, Junior Software Developer. Backend PHP/Laravel, SQL/Oracle and Python for accounting and financial systems." />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Artur Moreira de Carvalho | Backend for accounting and financial systems" />
-  <meta name="twitter:description" content="PHP/Laravel, SQL/Oracle and Python. Case studies on an accounting reconciliation assistant and TrilhaDocs, résumé and contact." />
+  <meta name="twitter:description" content="PHP/Laravel, SQL/Oracle and Python. Case studies on the AI Accounting Assistant (with a demo video) and TrilhaDocs, résumé and contact." />
   <meta name="twitter:image" content="https://arturmoreiradecarvalho.github.io/artur-portfolio/og-image-en.png" />
   <meta name="twitter:image:alt" content="Artur Moreira de Carvalho, Junior Software Developer. Backend PHP/Laravel, SQL/Oracle and Python for accounting and financial systems." />
   <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml" />
@@ -80,7 +80,7 @@
       <p class="eyebrow">Junior Software Developer · Backend</p>
       <h1 id="name">Artur Moreira de Carvalho</h1>
       <p class="tagline">Backend engineering with PHP/Laravel, SQL/Oracle and Python for accounting and financial systems.</p>
-      <p class="lead">Since 2024 I have been building and maintaining the backend of a multi-tenant SaaS platform for accounting reconciliation at Grupo PZM: business rules, Oracle queries, per-client authorization and automated tests. I also designed and am building an accounting reconciliation assistant where AI has a narrow role and clear controls.</p>
+      <p class="lead">Since 2024 I have been building and maintaining the backend of a multi-tenant SaaS platform for accounting reconciliation at Grupo PZM: business rules, Oracle queries, per-client authorization and automated tests. I also designed and am building an AI accounting assistant where the model has a narrow role and clear controls, with a demo video.</p>
       <div class="actions">
         <a class="button primary" href="#cases">View projects</a>
         <a class="button" href="../assets/cv/artur-moreira-de-carvalho-resume-en.pdf" type="application/pdf" download>Download résumé <span class="hint">PDF, 57 KB</span></a>
@@ -115,19 +115,58 @@
       <div class="section-head">
         <p class="eyebrow">Case studies</p>
         <h2 id="cases-title">Two real problems, told the same way</h2>
-        <p>Problem, context, my contribution, architecture, decisions, technology and status. The first is work on proprietary code; the second is public code.</p>
+        <p>Problem, context, my contribution, architecture, decisions, technology and status. The first is work on proprietary code and has a <a href="#demo">35-second demo video</a>; the second is public code.</p>
       </div>
 
       <article id="assistente-conciliacao" class="case" aria-labelledby="assistente-conciliacao-title">
         <p class="eyebrow">Case 01 · Work at Grupo PZM</p>
-        <h3 id="assistente-conciliacao-title">Accounting reconciliation assistant with tightly controlled applied AI</h3>
-        <p class="case-summary">Answers questions and operational lookups inside the reconciliation, period-close and tax screens without breaking permissions or the isolation between clients. The core is deterministic; AI only classifies.</p>
+        <h3 id="assistente-conciliacao-title">AI Accounting Assistant <span class="title-sub">Intelligent Financial Support System</span></h3>
+        <p class="case-summary">A context-aware assistant inside the reconciliation, period-close and tax screens: it answers questions and operational lookups, shows rule-based risk alerts and organizes the review before approval, without breaking permissions or the isolation between clients. The core is deterministic; AI only classifies.</p>
         <dl class="facts">
           <div><dt>Role</dt><dd>Architecture and development; only developer on the module, working with AI coding agents</dd></div>
           <div><dt>Timeline</dt><dd>Sep 2026 – present</dd></div>
           <div><dt>Status</dt><dd><span class="status">In development</span> Not deployed to production</dd></div>
           <div><dt>Stack</dt><dd>PHP 8/Laravel · Oracle SQL · JavaScript</dd></div>
         </dl>
+
+        <figure id="demo" class="demo" aria-labelledby="demo-title">
+          <video controls preload="none" playsinline width="1920" height="1080" poster="../assets/media/ai-accounting-assistant-demo.jpg" aria-label="Demo video of the AI Accounting Assistant, 35 seconds, no narration, fictional data" aria-describedby="demo-summary">
+            <source src="../assets/media/ai-accounting-assistant-demo.mp4" type="video/mp4" />
+            <track kind="captions" src="../assets/media/ai-accounting-assistant-demo.en.vtt" srclang="en" label="English (description)" />
+            <track kind="captions" src="../assets/media/ai-accounting-assistant-demo.pt-BR.vtt" srclang="pt-BR" label="Português (descrição)" />
+            <a href="../assets/media/ai-accounting-assistant-demo.mp4">Download the demo as MP4</a>.
+          </video>
+          <figcaption>
+            <strong id="demo-title">Demo video · 35 s · fictional data</strong>
+            <span id="demo-summary">An animation built from the real interface HTML and CSS, with fictional data. It is not a production recording or a performance measurement. No narration; on-screen text is in Portuguese, with descriptive captions in English and Portuguese.</span>
+          </figcaption>
+          <details class="demo-text">
+            <summary>Text description of the video</summary>
+            <ol>
+              <li><strong>0–3 s.</strong> Opening with the assistant's name.</li>
+              <li><strong>3–8 s.</strong> The reconciliation home screen opens the assistant in the user's context, with shortcuts by topic.</li>
+              <li><strong>8–12 s.</strong> The assistant highlights the approval queue; a fictional reconciliation sheet is opened.</li>
+              <li><strong>12–18 s.</strong> The sheet shows balances, journal entries and demo accounting data.</li>
+              <li><strong>18–23 s.</strong> In the panel, the sheet diagnosis brings together the step deadline, the month-over-month balance change and open items.</li>
+              <li><strong>23–32 s.</strong> The pre-approval checklist checks balances, attachments, open items and period, then suggests next steps. The decision stays with the user.</li>
+              <li><strong>32–35 s.</strong> Closing: “From question to evidence. From evidence to the next step.”</li>
+            </ol>
+            <p class="credits">Music: “Happy Beats &amp; Business Moves Vol. 12” by Sascha Ende (<a href="https://ende.app/" rel="noopener noreferrer">ende.app</a>), licensed <a href="https://creativecommons.org/licenses/by/4.0/" rel="noopener noreferrer">CC BY 4.0</a>. Sound effects: Kenney (CC0).</p>
+          </details>
+        </figure>
+
+        <div class="case-row">
+          <h4>What the video shows</h4>
+          <div>
+            <ul>
+              <li><strong>Interface.</strong> A panel on the reconciliation home screen and a widget inside the legacy sheet screens, with shortcuts that change with the context.</li>
+              <li><strong>Assistant logic.</strong> The sheet diagnosis (deadline, monthly balance change, open items) comes from Oracle queries on the client's own data and is assembled from templates.</li>
+              <li><strong>Automation.</strong> A pre-approval checklist that checks balances, attachments, open items and period and suggests next steps, without approving anything on its own.</li>
+              <li><strong>Integration.</strong> The widget runs inside the existing screens and uses identity, client and permissions resolved on the server.</li>
+              <li><strong>AI.</strong> Intent classification and prompt-injection risk flags. It does not show up as generated text, because the model does not write answers.</li>
+            </ul>
+          </div>
+        </div>
 
         <div class="case-row">
           <h4>Problem</h4>
@@ -157,7 +196,7 @@
             </li>
             <li><div class="box"><span class="kicker">Output</span><strong>Validated contract</strong>Answer and typed actions checked before display.</div></li>
           </ol>
-          <p class="note">My own generic diagram, with no product code, screens, internal names or data. If the external model fails, the core answers on its own.</p>
+          <p class="note">My own generic diagram, with no product code, internal names or data. If the external model fails, the core answers on its own.</p>
         </figure>
 
         <div class="case-row">
@@ -264,7 +303,7 @@
               <li>Build and maintain the reconciliation, period-close scheduling, tax obligations and manual journal entry modules, implementing accounting business rules in PHP 8/Laravel and legacy PHP and fixing defects down to the root cause.</li>
               <li>Write and fix Oracle SQL for status, open-item and aging indicators; for example, fixed a query that duplicated records in the tax module.</li>
               <li>Implemented re-authentication for critical actions, division-level authorization for imported statement batches and an audit log of parameter changes, all covered by automated tests.</li>
-              <li>Designed the architecture of, and am building, the accounting reconciliation assistant (<a href="#assistente-conciliacao">case 01</a>).</li>
+              <li>Designed the architecture of, and am building, the AI Accounting Assistant (<a href="#assistente-conciliacao">case 01</a>).</li>
               <li>Built a local QA environment with Docker, Python scripts for data curation and validation, and tooling for AI coding agents.</li>
             </ul>
           </div>
@@ -352,7 +391,7 @@
 
   <footer class="site-footer">
     <div class="container">
-      <p>© 2026 Artur Moreira de Carvalho. The accounting reconciliation assistant is owned by Grupo PZM; this site does not publish product code, screens or data.</p>
+      <p>© 2026 Artur Moreira de Carvalho. The AI Accounting Assistant is owned by Grupo PZM. This site does not publish product code or real product data; the demo video uses fictional data.</p>
       <p><a href="https://github.com/ArturMoreiraDeCarvalho/artur-portfolio" rel="noopener noreferrer">Source of this site</a> · HTML and CSS, no JavaScript</p>
     </div>
   </footer>

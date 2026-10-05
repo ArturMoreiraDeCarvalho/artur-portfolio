@@ -108,6 +108,20 @@ h4 { font-size: 1rem; line-height: 1.4; font-weight: 650; margin-bottom: .35rem;
 .case-row li strong { color: var(--text); font-weight: 650; }
 .case-row .tradeoff { display: block; margin-top: .15rem; font-size: .9375rem; color: var(--faint); }
 .case-link { margin-top: 1.5rem; }
+.title-sub { display: block; margin-top: .35rem; font-size: .6em; font-weight: 500; letter-spacing: 0; color: var(--muted); }
+
+/* Demo video: fixed 16:9 box (no layout shift), no autoplay, poster only until play */
+.demo { margin: 0 0 2rem; padding: 0; scroll-margin-top: 5rem; }
+.demo video { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; }
+.demo figcaption { display: flex; flex-direction: column; gap: .25rem; margin-top: .75rem; font-size: .9375rem; color: var(--muted); max-width: 72ch; }
+.demo figcaption strong { color: var(--text); font-weight: 650; }
+.demo-text { margin-top: .75rem; font-size: .9375rem; color: var(--muted); max-width: 72ch; }
+.demo-text summary { cursor: pointer; color: var(--accent); font-weight: 600; min-height: 44px; display: flex; align-items: center; }
+.demo-text summary:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
+.demo-text ol { padding-left: 1.15rem; margin: .5rem 0 .75rem; }
+.demo-text li + li { margin-top: .35rem; }
+.demo-text li strong { color: var(--text); font-weight: 650; }
+.demo-text .credits { font-size: .8125rem; color: var(--faint); margin: 0; }
 
 /* Architecture diagrams (HTML/CSS) */
 .arch { margin: 1rem 0 1.25rem; padding: clamp(1.25rem, 3vw, 2rem); background: var(--surface); border: 1px solid var(--line); border-radius: 12px; }
