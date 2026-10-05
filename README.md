@@ -7,20 +7,22 @@ Site estático do portfólio de Artur Moreira de Carvalho, desenvolvedor de soft
 
 ## Conteúdo
 
-- Atuação: só áreas com trabalho real, no emprego ou em código público.
-- Case do assistente de conciliação contábil (trabalho, código proprietário): problema, contribuição, tecnologia, decisões e status, com um diagrama próprio. O site não publica código, telas nem dados do produto.
-- Case TrilhaDocs (código público) e projetos de estudo (Data Quality CLI, Task Health API).
-- Experiência e contato.
+- Hero com links para os cases, o currículo em PDF, LinkedIn e GitHub, e uma faixa com quatro fatos verificáveis.
+- Cases no mesmo roteiro (problema, contexto, contribuição, arquitetura, decisões, tecnologia e status), cada um com um diagrama em HTML/CSS:
+  - assistente de conciliação contábil (trabalho, código proprietário; o site não publica código, telas nem dados do produto);
+  - TrilhaDocs (código público).
+- Experiência, tecnologias, projetos de estudo e contato (e-mail, LinkedIn, GitHub e currículo em PT e EN).
 
 ## Técnica
 
-- HTML e CSS, sem JavaScript, build step, fontes remotas, analytics ou recursos de terceiros.
-- HTML semântico, link para pular ao conteúdo, foco visível, tema claro/escuro por `prefers-color-scheme` e layout responsivo.
-- SEO: `title` e `description` por idioma, `canonical`, `hreflang`, Open Graph/Twitter Card (`og-image.png`, 1200×630) e JSON-LD `Person`.
+- HTML e CSS, sem JavaScript, build step, fontes remotas, analytics ou recursos de terceiros. Fontes do sistema.
+- HTML semântico, link para pular ao conteúdo, foco visível, tema claro/escuro por `prefers-color-scheme`, transições desligadas com `prefers-reduced-motion` e layout responsivo de 360 px a 1920 px.
+- SEO: `title` e `description` por idioma, `canonical`, `hreflang` (pt-BR, en, x-default), Open Graph/Twitter Card com imagem por idioma (`og-image.png`, `og-image-en.png`, 1200×630, geradas a partir dos SVGs), JSON-LD `ProfilePage`/`Person`, `sitemap.xml` e `robots.txt`.
+- Currículos públicos em `assets/cv/` (sem telefone).
 
 ## Desenvolvimento local
 
-Abra `index.html` no navegador ou sirva a pasta com qualquer servidor estático. GitHub Pages publica a branch `main` a partir da raiz.
+Sirva a pasta pai com qualquer servidor estático e abra `/artur-portfolio/` (a página 404 usa caminhos absolutos do GitHub Pages). GitHub Pages publica a branch `main` a partir da raiz.
 
 ## Licença
 
