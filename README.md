@@ -9,7 +9,7 @@ Site estático do portfólio de Artur Moreira de Carvalho, desenvolvedor de soft
 
 - Hero com links para os cases, o currículo em PDF, LinkedIn e GitHub, e uma faixa com quatro fatos verificáveis.
 - Cases no mesmo roteiro (problema, contexto, contribuição, arquitetura, decisões, tecnologia e status), cada um com um diagrama em HTML/CSS:
-  - assistente de conciliação contábil (trabalho, código proprietário; o site não publica código, telas nem dados do produto);
+  - Assistente de Contabilidade com IA (trabalho, código proprietário; o site publica só uma demonstração em vídeo com dados fictícios, sem código nem dados reais);
   - TrilhaDocs (código público).
 - Experiência, tecnologias, projetos de estudo e contato (e-mail, LinkedIn, GitHub e currículo em PT e EN).
 
@@ -26,4 +26,4 @@ Sirva a pasta pai com qualquer servidor estático e abra `/artur-portfolio/` (a 
 
 ## Licença
 
-Código sob a licença [MIT](LICENSE). O assistente de conciliação contábil descrito no site é propriedade do Grupo PZM; a licença não se estende a marcas ou materiais de terceiros.
+Código sob a licença [MIT](LICENSE). O Assistente de Contabilidade com IA descrito no site é propriedade do Grupo PZM; a licença não se estende a marcas ou materiais de terceiros, nem ao vídeo de demonstração (música de Sascha Ende, CC BY 4.0; efeitos sonoros Kenney, CC0).
